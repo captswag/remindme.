@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:weightSum="4">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/anjith_sasindran"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:background="#F7F4ED"
+        android:textColor="#F26C51" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/joshwa_philip"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:background="#F26C51"
+        android:textColor="#4E4540" />
+    <TextView
+        android:layout_width="fill_parent"        
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/rithin_v"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:background="#4E4540"
+        android:textColor="#F26C51" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#47BBCA"
+        android:text="@string/tell_a_friend"
+        android:textColor="#4E4540"
+        android:textSize="25sp"
+        android:textStyle="italic|bold"
+        android:onClick="shareIntent" />
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="15dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/row1"
+        android:textColor="@color/rowTopGrey"
+        android:textAllCaps="true"
+        android:textSize="12sp" />
+    
+	<TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/row2"
+        android:textSize="20sp"
+        android:textColor="@color/bottomright_color"
+        android:textStyle="bold" />   
+
+</LinearLayout>

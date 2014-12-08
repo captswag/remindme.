@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RemindMe.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="all">ALL</string>
+    <string name="this_month">THIS MONTH</string>
+    <string name="next_7_days">NEXT 7 DAYS</string>
+    <string name="today">TODAY</string>
+    <string name="about">About</string>
+    <string name="anjith_sasindran">Anjith Sasindran</string>
+    <string name="joshwa_philip">Joshwa Philip</string>
+    <string name="rithin_v">Rithin V</string>
+    <string name="tell_a_friend">Tell A Friend</string>
+    <string name="enter_your_remindme_">Enter your RemindMe.</string>
+    <string name="set_time">Set Time</string>
+    <string name="set_date">Set Date</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="push_to_wear">Push To Wear</string>
+    <string name="login_image">Login Image</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="emailaddress">Email Address</string>
+    <string name="password">Password</string>
+    <string name="addtask">New Task</string>
+    <string name="never_forget_anymore">Never forget Anymore</string>
+    <string name="login_with_gmail">Login with GMail</string>
+    <string name="friend_s_email">Friend\'s Email</string>
+
+</resources>

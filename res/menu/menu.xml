@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	    	
+    <item android:id="@+id/add"
+	    android:title="@string/addtask"
+	    android:showAsAction="always"
+	    android:icon="@drawable/ic_action_new"/>
+    
+    <item android:id="@+id/about"
+	    android:title="@string/about"
+	    android:showAsAction="ifRoom"
+	    android:icon="@drawable/ic_action_person"/>
+    
+	<item android:id="@+id/login"
+	    android:title="@string/email"
+	    android:showAsAction="ifRoom"
+	    android:icon="@drawable/ic_action_email"/>
+	
+	<item android:id="@+id/mic"
+	    android:title="@string/addtask"
+	    android:showAsAction="always"
+	    android:icon="@drawable/ic_action_mic"/>
+
+</menu>

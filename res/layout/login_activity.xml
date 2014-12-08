@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_login" >
+
+    	<TextView
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="40dp"
+    	    android:layout_marginTop="280dp"
+    	    android:background="@color/neverforget"
+    	    android:gravity="center"
+    	    android:text="@string/never_forget_anymore"
+    	    android:textColor="@color/white"
+    	    android:textSize="20sp"
+    	    android:textStyle="italic"
+    	    android:typeface="sans" />
+
+    	<TextView
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="40dp"
+    	    android:background="@color/gmail"
+    	    android:gravity="center"
+    	    android:text="@string/login_with_gmail"
+    	    android:textColor="@color/white"
+    	    android:textSize="20sp"
+    	    android:textStyle="italic"
+    	    android:typeface="sans" />
+
+		<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:background="@color/restlogin"
+		    android:paddingTop="20dp"
+		    android:paddingLeft="15dp"
+		    android:paddingRight="15dp">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_edit_text_holo_dark"
+            android:hint="@string/emailaddress"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:textColorHint="@color/hintcolor" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_edit_text_holo_dark"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:textColorHint="@color/hintcolor"/>
+        
+        <EditText
+		    android:id="@+id/friendemail"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/edittext_edit_text_holo_dark"
+		    android:hint="@string/friend_s_email"
+		    android:inputType="textEmailAddress"
+		    android:maxLines="1"
+		    android:textColor="@color/white"
+		    android:textColorHint="@color/hintcolor"
+		    android:layout_gravity="bottom"
+		    android:layout_marginBottom="20dp"/>
+		
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_btn_default_holo_dark"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:onClick="registerMail" />
+
+        </LinearLayout>
+</LinearLayout>

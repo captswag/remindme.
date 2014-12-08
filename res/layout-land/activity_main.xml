@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:background="@color/bold_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/topleft_btn_default_holo_light"
+            android:text="@string/today"
+            android:textColor="@color/bold_color"
+            android:textSize="25sp"
+            android:textStyle="italic|bold"
+            android:typeface="sans"
+            android:onClick="startToday" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/topright_btn_default_holo_light"
+            android:text="@string/next_7_days"
+            android:textColor="@color/bold_color"
+            android:textSize="25sp"
+            android:textStyle="italic|bold"
+            android:typeface="sans"
+            android:onClick="startNext" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bottomleft_btn_default_holo_light"
+            android:text="@string/this_month"
+            android:textColor="@color/bold_color"
+            android:textSize="25sp"
+            android:textStyle="italic|bold"
+            android:typeface="sans"
+            android:onClick="startThisMonth" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bottomright_btn_default_holo_light"
+            android:text="@string/all"
+            android:textColor="@color/bold_color"
+            android:textSize="25sp"
+            android:textStyle="italic|bold"
+            android:typeface="sans"
+            android:onClick="startAll" />
+        
+    </LinearLayout>
+    
+</LinearLayout>

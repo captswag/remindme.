@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="BottomLeft" parent="@style/_BottomLeft"/>
+
+  <style name="_BottomLeft" parent="android:Theme.Holo.Light.DarkActionBar">
+
+    <item name="android:buttonStyle">@style/ButtonBottomLeft</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonBottomLeft</item>
+
+  </style>
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:background="@color/logo_color"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:paddingLeft="16dp"
+	    android:paddingRight="16dp">
+
+	<EditText
+	    android:id="@+id/reminder"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="10dp"
+	    android:layout_marginTop="10dp"
+	    android:hint="@string/enter_your_remindme_"
+	    android:lines="1"
+	    android:maxLines="2"
+	    android:minLines="1"
+	    android:textSize="20sp"
+	    android:typeface="sans"
+	    android:inputType="textCapSentences" />
+
+		<LinearLayout
+	    	android:layout_height="wrap_content"
+		    android:layout_width="fill_parent"
+		    android:orientation="horizontal"
+		    android:layout_marginBottom="10dp">
+
+	   	 	<Button
+	   	 	    android:layout_width="wrap_content"
+	   	 	    android:layout_height="wrap_content"
+	   	 	    android:layout_weight="1"
+	   	 	    android:background="#B2DD6B"
+	   	 	    android:onClick="showTimePickerDialog"
+	   	 	    android:text="@string/set_time"
+	   	 	    android:textColor="@color/white"
+	   	 	    android:textStyle="bold"
+	   	 	    android:typeface="sans"
+	   	 	    style="?android:attr/buttonBarButtonStyle" />
+
+		    <Button
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:background="#00A5C5"
+		        android:onClick="showDatePickerDialog"
+		        android:text="@string/set_date"
+		        android:textColor="@color/white"
+		        android:textStyle="bold"
+		        android:typeface="sans"
+		        style="?android:attr/buttonBarButtonStyle" />
+ 
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
